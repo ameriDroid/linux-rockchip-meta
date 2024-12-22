@@ -18,9 +18,8 @@ jobs:
       - name: Build packages
         run: |
           sudo apt-get update
-          sudo apt-get build-dep --no-install-recommends -y .
           sudo apt-get install --no-install-recommends -y git-buildpackage debhelper devscripts
-          debuild --no-lintian -us -uc
+          debuild --no-lintian -us -uc -d
 
       - name: Workaround actions
         run: |

@@ -8,7 +8,7 @@ Build-Depends-Arch:
  linux-rockchip-headers-6.1.0-1023,
  linux-headers-6.1.0-1023-rockchip,
  linux-modules-6.1.0-1023-rockchip,
-Vcs-Git: https://github.com/Joshua-Riek/linux-rockchip
+Vcs-Git: https://github.com/ameriDroid/linux-rockchip
 
 Package: linux-headers-rockchip
 Architecture: arm64
