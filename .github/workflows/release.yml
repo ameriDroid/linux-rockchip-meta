@@ -15,7 +15,7 @@ jobs:
       - name: Build packages
         run: |
           sudo apt-get update
-          sudo apt-get install --no-install-recommends -y git-buildpackage debhelper devscripts
+          sudo apt-get install --no-install-recommends -y git-buildpackage debhelper devscripts gawk kmod
           debuild --no-lintian -us -uc -d
 
       - name: Workaround actions
