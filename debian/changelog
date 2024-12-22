@@ -1,3 +1,8 @@
+linux-meta-rockchip (6.1.0.1023.24) bookworm; urgency=medium
+
+
+ -- Panda <panda@ameridroid.com>  Sun, 22 Dec 2024 15:39:08 +0100
+
 linux-meta-rockchip (6.1.0.1023.23) bookworm; urgency=medium
 
   * Bump ABI
