@@ -22,7 +22,7 @@ Package: linux-image-rockchip
 Architecture: arm64
 Section: kernel
 Provides: ${dkms:zfs-modules}
-Depends: ${misc:Depends}, linux-image-${kernel-abi-version}-rockchip, linux-firmware
+Depends: ${misc:Depends}, linux-image-${kernel-abi-version}-rockchip
 Recommends: thermald
 Description: Rockchip Linux kernel image
  This package will always depend on the latest rockchip kernel image
